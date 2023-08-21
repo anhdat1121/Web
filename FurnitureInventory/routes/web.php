@@ -29,12 +29,7 @@ Route::resources(
     //     'middleware' => 'auth'
     //     ]
 );
-Route::resources(
-    [
-        'categories' => CategoryController::class,
-    ],
- 
-);
+
 Route::resources(
     [
         'tags' =>TagController::class,
