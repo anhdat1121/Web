@@ -35,10 +35,7 @@ Route::resources(
     ],
  
 );
-Route::resources(
-    [
-        'tags' =>TagController::class,
-    ],
+
  
 );
 
